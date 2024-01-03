@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Ping coming soon page</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;400;600&display=swap" rel="stylesheet">
+    <!-- Template Css File -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <img class="logo" src="images/logo.svg" alt="logo">
+        <h1><span>We are launching</span> <span>soon!</span></h1>
+        <p class="p-subs">Subscribe and get notified</p>  
+          <input type="email" placeholder="Your email address...">
+        <button id="submitBtn">Notify Me</button>
+        <div class="invalid-feedback hide">
+          <p class="invalid-feedback-msg">Please provide a valid email address</p>
+        </div>
+        <img class="illustration" src="images/illustration-dashboard.png" alt="illustration"> 
+        <div class="icons-box">
+          <div class="f-icon"><i class="fa-brands fa-facebook-f"></i></div>
+          <div class="x-icon"><i class="fa-brands fa-twitter"></i></div>
+          <div class="ig-icon"><i class="fa-brands fa-instagram"></i></div>
+        </div>     
+        <p class="p-copyright">&copy; Copyright Ping. All rights reserved.</p>
+      </div>
+    </main>
+
+    <!-- Include SweetAlert from a CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
